@@ -1,0 +1,17 @@
+// #project{
+//     @include gradiant;
+// }
+.rotate{
+    color: $info;
+    position: relative;
+}
+.rotate-div{
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+width: 100px;
+height: 40px;
+background-color: aquamarine;
+}

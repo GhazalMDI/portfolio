@@ -1,0 +1,39 @@
+.line-af{
+    position: relative;
+}
+.line-af::before{
+    content: '';
+    width: 300px;
+    border-radius:30px ;
+    height: 5px;
+    margin: 0  auto;
+    background-color:$primary ;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    -webkit-border-radius:30px ;
+    -moz-border-radius:30px ;
+    -ms-border-radius:30px ;
+    -o-border-radius:30px ;
+}
+.line-af::after{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    content: '';
+    width: 150px;
+    border-radius:30px ; 
+    height: 5px;
+    margin: 0  auto;
+    background-color: $link;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;;
+    -webkit-border-radius:30px ;
+    -moz-border-radius:30px ;
+    -ms-border-radius:30px ;
+    -o-border-radius:30px ;
+}

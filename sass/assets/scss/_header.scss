@@ -1,0 +1,24 @@
+// .header{
+// background-color:rgba($color: #fbcdea5b, $alpha: 0.8) ;
+//     color: aliceblue;
+//     z-index: 2000;
+// }
+
+.offcanvas-body {
+    a{
+    text-decoration: none;
+    color: #000;
+    }
+    a:hover{
+        color: $sucsess;
+    }
+    ul{
+        list-style: none;
+    }
+}
+@media (max-width: 991.98px) { 
+    h1{
+   font-size: small;
+    }
+ }
+

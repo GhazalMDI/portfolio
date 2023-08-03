@@ -1,0 +1,71 @@
+.after-item-skills{
+    position: relative;
+    margin: 0 auto;
+    background-color: #1D2671;
+    width: 100%;
+    height: 5px;
+    border-radius:30px ;
+    -webkit-border-radius:30px ;
+    -moz-border-radius:30px ;
+    -ms-border-radius:30px ;
+    -o-border-radius:30px ;
+    // color: aliceblue;
+}
+.card1{
+    background-color: transparent;
+    border: 2px solid #0f9b0f;
+}
+.after-item-skills1::before,.after-item-skills7::before , .after-item-skills3::before, .after-item-skills2.after-item-skills2::before , .after-item-skills4::before ,.after-item-skills5::before ,.after-item-skills6::before{
+   content: '';
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   margin: 0 auto;
+   background-color: #2cd1d3;
+   height: 5px;
+   border-radius:30px ;
+   -webkit-border-radius:30px ;
+   -moz-border-radius:30px ;
+   -ms-border-radius:30px ;
+   -o-border-radius:30px ;
+}
+.after-item-skills1::before {
+    width: 85%;
+}
+.after-item-skills2::before{
+    width: 80%;
+}
+.after-item-skills3::before{
+width: 55%;
+
+}
+.after-item-skills4::before{
+    width: 40%;
+    // background-color: $sucsess;
+}
+.after-item-skills5::before{
+    width: 50%;
+}
+.after-item-skills6::before{
+width: 89%;
+
+}
+.after-item-skills7::before{
+    width: 70%;
+    
+    }
+.item-skills{ 
+    transition:all 0.3s ease-in-out ;
+     -webkit-transition:all 0.3s ease-in-out ;
+      -moz-transition:all 0.3s ease-in-out ; 
+      -ms-transition:all 0.3s ease-in-out ;
+       -o-transition:all 0.3s ease-in-out ;
+}
+.item-skills:hover{
+    transform:scale(1.05);
+    -moz-transform:scale(1.05);
+    -ms-transform:scale(1.05);
+    -o-transform:scale(1.05);
+    -webkit-transform:scale(1.05);
+}
+

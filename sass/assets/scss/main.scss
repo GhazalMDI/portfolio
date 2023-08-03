@@ -1,0 +1,44 @@
+
+$info: #fff;          
+$danger:#27364b;
+$sucsess:#23d6a6;
+$warning:#000000;
+$link:#093637; 
+$primary:#44a9bb;         
+$secondry:#0f9b0f;
+$outline-primary:#f8f8f8;     
+ 
+body{
+    overflow-x: hidden;
+    background: #44A08D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+//     background: #00bf8f;  /* fallback for old browsers */
+// background: -webkit-linear-gradient(to right, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
+// background: linear-gradient(to right, #001510, #00bf8f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+    
+}
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';  
+@import '../scss/component/mixin'; 
+@import './component/icon';
+@import './component/icon-home';   
+@import './component/line-af';  
+@import './component/div-box-af';
+@import './component/after-item-skills';     
+@import './component/btn-primary'; 
+@import './component/ani';
+@import './component/fix'; 
+@import './fonts';           
+@import './Navbar';      
+@import './header';   
+@import './home';   
+@import './about';
+@import './skills';      
+@import './project';    
+@import './contact';
+ 
+
+  

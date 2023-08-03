@@ -1,0 +1,36 @@
+.fix{
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    cursor: pointer;
+    i{
+        color: $primary;
+  right: 15px;
+  top: 8px;
+
+    }
+}
+@media (max-width: 767.98px){
+    .fix{
+        width: 70px;
+        height: 70px;
+        background-color: black;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        z-index: 1000;
+        cursor: pointer;
+    i{
+        color: $primary;
+  right: 18px;
+  top: 13px;
+
+    }
+}      
+}
